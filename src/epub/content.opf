@@ -30,43 +30,58 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Smoky, the Cow Horse</dc:title>
 		<meta property="file-as" refines="#title">Smoky, the Cow Horse</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Horses--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-2">Horses--Fiction</dc:subject>
+		<dc:subject id="subject-3">West (U.S.)--Fiction</dc:subject>
+		<meta id="collection-1" property="belongs-to-collection">Newbery Medal</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">6</meta>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008105783</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008105773</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85146287</meta>
+		<meta property="se:subject">Childrens</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">The life and experiences of Smoky, a gray-colored horse, as he grows into adulthood on the ranges of the American west.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;On an isolated range in the American west, a young horse named Smoky is born and raised. Allowed to run free for the first few years of his life, he is later captured and tamed by a cowboy named Clint. In Smoky, Clint sees something special and quickly falls in love with the intelligent, wild young horse. As the years pass, Smoky must overcome many challenges ranging from mountain lions and winter storms to horse thieves and modern society.&lt;/p&gt;
+			&lt;p&gt;Winner of the 1927 Newbery Medal, &lt;i&gt;Smoky, the Cow Horse&lt;/i&gt; is &lt;a href="https://standardebooks.org/ebooks/will-james"&gt;Will James’s&lt;/a&gt; most famous book. Upon winning the award, James expressed surprise because he had intended the book for adults.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES (Misspelled words and printer errors have been corrected. Where multiple spellings occur, majority use has been employed.)</meta>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20190484</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/001516163</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Smoky_the_Cowhorse</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/will-james_smoky-the-cow-horse</meta>
 		<dc:creator id="author">Will James</dc:creator>
 		<meta property="file-as" refines="#author">James, Will</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">William Roderick James</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Will_James</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80005727</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">wat</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Charles Marion Russell</dc:contributor>
+		<meta property="file-as" refines="#artist">Russell, Charles Marion</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Charles_Marion_Russell</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79141020</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Cindy Beyer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Beyer, Cindy</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Distributed Proofreaders Canada Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders Canada Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdpcanada.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason DeCock</dc:contributor>
+		<meta property="file-as" refines="#producer-1">DeCock, Jason</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
