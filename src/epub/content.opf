@@ -59,7 +59,7 @@
 		<dc:creator id="author">Will James</dc:creator>
 		<meta property="file-as" refines="#author">James, Will</meta>
 		<meta property="se:name.person.full-name" refines="#author">William Roderick James</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Will_James</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Will_James_(artist)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80005727</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
